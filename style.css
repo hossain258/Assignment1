@@ -1,0 +1,315 @@
+body{
+
+    font-family: system-ui, system-ui, sans-serif;
+    margin: 0 auto;
+    background-color: gray;
+   
+    }
+#header{
+
+    width: 100%;
+    height: 100px;
+    background-color: rgb(70, 68, 68) ;
+    padding: 12px;
+    margin: 0 auto;
+
+}
+ul{
+    
+    text-decoration: none;
+    margin: 35px 0px 0px 650px;
+    text-transform: uppercase;
+    
+   
+ }
+li{
+    
+    display: inline;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: solid black;
+    margin: 20px  ;
+    border-radius: 15px 0px 15px 0px;    
+    cursor: pointer;
+    transition: 1s;
+    color: thistle;
+    background-color:lavender;
+ }
+ 
+    
+    
+
+
+li:hover{
+ 
+   background-image: red; 
+    
+    
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+}
+
+li a:hover{
+    background-color: #ff99af; 
+}
+
+
+.bottom-img{
+    background-color: #333333;
+    margin-top: 25px;
+    padding:8px;
+  
+   
+    
+}
+.top-img{
+    
+    background-color: #a3d2ca; 
+    position: relative;
+    padding-top: 100px;
+  
+    
+ }
+ .bottom-img{
+    background-color: #333333;
+    margin-top: 25px;
+    padding:8px;
+  
+   
+    
+}
+
+
+.top-cloud{
+    
+    position:absolute;
+    right: 100px;
+    top:50px;
+    
+  
+}
+.bottom-cloud{
+    
+    position:absolute;
+    left:300px;
+ 
+    
+}
+.welcome{
+    text-align: center;
+    transition: 3s;
+    color: tomato;
+    font-size: 25px;
+    text-transform: uppercase;
+    -moz-animation-delay: 2s;
+}
+.half-width{
+
+    width: 40%;
+    float: left;
+    padding: 30px;
+    margin: 50px 30px 10px 50px;
+    
+}
+h2{
+    font-size: 30px;
+    transition: 2s;
+    color: brown;
+    text-transform: uppercase;
+
+}
+
+.button{
+
+    background-image: linear-gradient(45deg,red,green);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: 2s;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+}
+.button:hover {
+    background-color: blue;
+    
+    margin-bottom: 30px;
+
+
+}
+.title{
+    color: red;
+    font-size: 30px;
+}
+title:hover{
+    color: black;
+}
+.first-p{
+    font-size: 20px;
+    padding: 3px;
+    
+    
+    
+}
+.column {
+    border: 2px solid white;
+    width:15%;
+    height: 350px;
+    padding-bottom: 10px;
+    float: left;
+    margin: 15px; 
+    
+    box-shadow: 1px;
+
+  }
+
+  
+.button-new{
+
+    width:450px;
+    height: 150px;
+    border-radius: 15px;
+    border:10px blue;
+    text-decoration: none;
+    background-color: lightblue;
+    
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 20px 0px 20px 450px;   
+    
+   
+    
+}
+p{
+    padding:10px;
+}
+
+.INQUIRY{
+
+    font-size: 15px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+    margin-left:240px ;
+    position: relative;
+
+    
+}
+
+footer{
+
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+}
+footer p{
+
+    text-align:center ;
+    font-size: 15px;
+    padding: 10px;
+   
+}
+fieldset{
+
+    width:500px;
+    border: 3px solid red;
+    margin-left: 100px;
+   
+}
+legend{
+
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+h1{
+
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 180px;
+    padding:5px;
+    text-align: center;
+}
+
+.image-size {
+
+    width:250px;
+    height: 280px;
+    background-image: white;
+    
+}
+.row{
+
+    width:80% ;
+    display: flex;
+    background-color: antiquewhite;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+   
+   
+    
+
+}
+
+.row p{
+    font-size: 15px;
+    border: 2px solid rgb(255, 72, 0);
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+
+.row > div {
+    background-color: #f1f1f1;
+    margin-top: 80px;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+
+}
+.project{
+
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+.contact-me{
+
+    
+    margin:150px 10px 100px 20px;
+    padding: 5px;
+    margin-left: 30px;    
+    max-height: 1000px;
+    
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    
+    color: white;
+  }
+  .fa-twitter {
+    
+    color: white;
+  }
+  
